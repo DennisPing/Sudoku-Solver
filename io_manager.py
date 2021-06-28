@@ -24,7 +24,7 @@ def push_to_screen(puzzle):
             output.append([str(n) for n in rev])
 
     direction = 1 # 1 is right, 0 is left
-    for row in output:
+    for i, row in enumerate(output):
         if direction == 1:
             for e in row:
                 pg.press(e)
@@ -33,7 +33,8 @@ def push_to_screen(puzzle):
             for e in row:
                 pg.press(e)
                 pg.hotkey("left")
-        pg.hotkey("down")
+        if i < 8:
+            pg.hotkey("down")
         direction = not direction
 
 
