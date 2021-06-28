@@ -45,7 +45,7 @@ Time taken: 0.185 seconds
 
 This sudoku solver automatically keys in the answers onto https://sudoku.com/
 
-![Auto Solve Sudoku](https://media.giphy.com/media/ztTrdfCljEn9f8w2YH/giphy.gif)
+![Auto Solve Sudoku](https://giphy.com/gifs/ztTrdfCljEn9f8w2YH?utm_source=media-link&utm_medium=landing&utm_campaign=Media%20Links&utm_term=)
 
 I gave the program 5 seconds to wait for you to press the first square in the puzzle.
 
