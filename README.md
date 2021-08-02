@@ -1,4 +1,4 @@
-# Sudoku-Solver
+# Sudoku-Solver with Autocomplete
 
 Solve sudoku using backtracking
 
